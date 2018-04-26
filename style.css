@@ -1,30 +1,37 @@
-.wrapper {
+.services-wrapper {
     background: #fff;
+    color: #999;
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
-.wrapper:after {
+.services-wrapper:after {
     content: '';
     display: block;
     clear: both;
 }
 
-.blue {
-    background: blue;
-    float: right;
-}
-.red {
-    background: red;
-    float: right;
-}
-.green {
-    float: right;
-    background: green;
+.service h2,
+.service p {
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
 }
 
-.box {
-    height: 100px;
-    width: 100px;
+.service {
+    float: left;
+    background: #eee;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.content {
+    padding: 10px;
+    background: #ccc;
+    clear: left;
+    margin-top: 100px;
 }
