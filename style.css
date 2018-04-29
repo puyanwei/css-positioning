@@ -1,4 +1,4 @@
-.services-wrapper {
+.wrapper {
     background: #fff;
     color: #999;
     max-width: 960px;
@@ -11,6 +11,11 @@
     content: '';
     display: block;
     clear: both;
+}
+
+.services-wrapper {
+    max-height: 150px;
+    overflow: hidden;
 }
 
 .service h2,
