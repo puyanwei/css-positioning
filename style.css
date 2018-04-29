@@ -35,6 +35,13 @@
     margin: 20px 1%;
 }
 
+.content p {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 50px;
+    -webkit-column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+
 section,
 aside {
     float: left;
