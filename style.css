@@ -69,3 +69,18 @@ aside {
     content: '';
     clear: both;
 }
+
+.banner {
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1px;
+    position: relative;
+}
+
+.banner h2 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
